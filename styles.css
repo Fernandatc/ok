@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+
+body {
+    background-color: #ffffff;
+    background-image:  linear-gradient(135deg, #fe1e74 25%, transparent 25%), linear-gradient(225deg, #fe1e74 25%, transparent 25%), linear-gradient(45deg, #fe1e74 25%, transparent 25%), linear-gradient(315deg, #fe1e74 25%, #e5e5f7 25%);
+    background-position:  10px 0, 10px 0, 0 0, 0 0;
+    background-size: 20px 20px;
+    background-repeat: repeat;
+    font-size: 18px;
+    text-align: center;
+}
+
+.contenedor__trivia{
+    border-radius: 25px 25px 0 0;
+    background-color: black;
+    color: #fbfbfb;
+}
+
+.titulo__marca {
+    padding: 3px 0;
+    font-size: 20px;
+}
+
+.subtitulo {
+    color:#fe1e74;
+    margin: 15px 0;
+    font-size: 35px;
+}
+
+.contenedor {
+    margin: 30px auto;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    box-shadow:  0 8px 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    height: 500px;
+    width: 60%
+}
+
+.contenedor__parrafo {
+    padding: 50px 10px 0;
+}
+/* input */
+.input {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 20px;
+    margin: 10px 0;
+    width: 70%;
+}
+
+input {
+    font-size: 16px
+}
+/* boton  */
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.boton {
+    color:white;
+    background-color: #080808;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: 800;
+    display: block;
+    padding: 5px 10px;
+    margin: 10px auto;
+    width: 40%
+}
+
+
+.boton:hover{
+    background-color:#fe1e74;
+    color: white;
+    border: 1px  white solid
+}
+
+
+.pregunta {
+    display:block;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
